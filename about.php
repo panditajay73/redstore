@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - RedStore</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- Start of  Zendesk Widget script -->
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=919f8ea7-4a83-4df4-ae3d-5b2811d491fa"> </script>
+<!-- End of  Zendesk Widget script -->
+   <style>
+    
+    *{
+    margin: 0;
+    padding: 0;
+     font-family: 'Poppins', sans-serif;
+}
+body{
+  background:  radial-gradient(#fff,#ffd6d6); 
+}
+       .services{
+           text-align: center;
+           margin-top: 50px;
+       }
+       .services h1
+       {
+           display: inline-block;
+           text-transform: uppercase;
+           border-bottom: 4px solid #ff523b;
+           border-radius: 3px;
+           font-size: 20px;
+           padding-bottom: 10px;
+           margin-top: 40px;
+       }
+       .cen{
+           max-width: 1200px;
+           margin: auto;
+           overflow: hidden;
+           padding: 20px;
+       }
+       .service{
+           display: inline-block;
+           width: calc(100% / 3);
+           margin: 0 -2px;
+           padding: 20px;
+           box-sizing: border-box;
+           cursor: pointer;
+           transition: 0.5s;
+       }
+       
+       .service:hover{
+           background: #ddd;
+           border-radius: 20px;
+       }
+       .service i{
+           color: #ff523b;
+           font-size: 34px;
+           margin-bottom: 30px;
+       }
+       .service h2{
+           font-size: 18px;
+           text-transform: uppercase;
+           font-weight: 500;
+           margin-bottom: 10px;
+       }
+       .service p{
+           color: gray;
+           font-size: 15px;
+           font-weight: 500;
+       }
+       
+       hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+       .copyright{
+    text-align: center;
+           margin-bottom: 10px;
+           font-size: 15px;
+}
+       @media screen and (max-width:800px){
+           .service{
+               width: 50%;
+           }
+       }
+        @media screen and (max-width:500px){
+           .service{
+               width: 100%;
+           }
+       }
+    </style>
+    
+    </head>
+    <body>
+   
+ <!-------------contact us form details------------><div class="container">
+       <a href="index.php"><img src="images/logo.png" style="height: 30px;width: 100px;margin: 20px 20px;cursor: pointer"></a> 
+       <div class="services">
+        <h1>About us</h1>
+           <div class="cen">
+           <div class="service">
+               <i class="fa fa-anchor"></i>
+               <h2>Our Taglist</h2>
+               <p>A product is the item offered for sale. A product can be a service or an item. It can be physical or in virtual or cyber form.</p>
+               </div>
+                <div class="service">
+               <i class="fa fa-android"></i>
+               <h2>Android Devices</h2>
+               <p>A product is the item offered for sale. A product can be a service or an item. It can be physical or in virtual or cyber form.</p>
+               </div>
+                <div class="service">
+               <i class="fa fa-angellist"></i>
+               <h2>Our Wishlists</h2>
+               <p>A product is the item offered for sale. A product can be a service or an item. It can be physical or in virtual or cyber form.</p>
+               </div>
+                <div class="service">
+               <i class="fa fa-apple"></i>
+               <h2>IOS Devices</h2>
+               <p>A product is the item offered for sale. A product can be a service or an item. It can be physical or in virtual or cyber form.</p>
+               </div>
+                <div class="service">
+               <i class="fa fa-amazon"></i>
+               <h2>Place Your order</h2>
+               <p>A product is the item offered for sale. A product can be a service or an item. It can be physical or in virtual or cyber form.</p>
+               </div>
+                <div class="service">
+               <i class="fa fa-trash"></i>
+               <h2>Delete Your Order</h2>
+               <p>A product is the item offered for sale. A product can be a service or an item. It can be physical or in virtual or cyber form.</p>
+               </div>
+           </div>
+        </div>
+      <hr>
+          <p class="copyright">Copyrights 2020 - Ajay Pandey | M.M.I.T Siddharth Nagar</p>
+     </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

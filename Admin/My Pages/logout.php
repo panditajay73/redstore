@@ -1,0 +1,11 @@
+<html>
+<head></head>
+<body>
+<?php
+session_start();
+session_unset();
+session_destroy();
+echo"<script>alert('Logout!!');window.location.href='../../account.php'</script>";
+?>
+</body>
+</html>
