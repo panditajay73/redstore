@@ -12,15 +12,15 @@ if($npass==$cpass)
 $x=$db->insertUpdateOrDelete($query);
 if($x==false)
 {
-echo "<script>alert('Password changed!!');window.location.href='/flower_Aura/account.php'</script>";
+echo "<script>alert('Password changed!!');window.location.href='/eCommerce/account.html'</script>";
 }
 else
 {
-	echo "<script>alert('Password not changed!!');window.location.href='../Admin/My Pages/changepassword.php'</script>";
+	echo "<script>alert('Password not changed!!');window.location.href='../Admin/My Pages/changepassword.html'</script>";
 }
 }
 else
 {
-echo "<script>alert('Plz confirm password!!');window.location.href='../Admin/My Pages/changepassword.php'</script>";	
+echo "<script>alert('Plz confirm password!!');window.location.href='../Admin/My Pages/changepassword.html'</script>";	
 }
 ?>

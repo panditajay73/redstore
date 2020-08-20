@@ -1,4 +1,4 @@
-<?php
+html<?php
 session_start();
 $userid=$_POST["userid"];
 $passwd=$_POST["pass"];
@@ -18,16 +18,16 @@ die("Connection is not establish ".mysqli_connect_error());
 if($userid==$userid && $password==$passwd)
 {
 	$_SESSION["userid"]=$userid;
-	echo"<script>alert('Welcome to Admin zone');window.location.href='../Admin/My Pages/dashboard.php'</script>";  
+	echo"<script>alert('Welcome to Admin zone');window.location.href='../Admin/My Pages/dashboard.html'</script>";  
 }	
 else
 {
-	 echo"<script>alert('Invalid userid or password');window.location.href='../account.php'</script>";  
+	 echo"<script>alert('Invalid userid or password');window.location.href='../account.html'</script>";  
 }
 			   }
 			   }
 			   else
 			   {
-				 echo"<script>alert('Invalid userid or password');window.location.href='../account.php'</script>";  
+				 echo"<script>alert('Invalid userid or password');window.location.href='../account.html'</script>";  
 			   }
 ?>

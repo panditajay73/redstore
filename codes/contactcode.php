@@ -12,10 +12,10 @@ $db=new DBManager();
 $x=$db->insertUpdateorDelete($query);
 if($x==false)
 {
-echo"<script>alert('Thanks for contact us');window.location.href='/flower_Aura/contact.php'</script>";
+echo"<script>alert('Thanks for contact us');window.location.href='/eCommerce/contact.html'</script>";
 }
 else
 {
-echo"<script>alert('Sorry!!');window.location.href='/flower_Aura/contact.php'</script>";
+echo"<script>alert('Sorry!!');window.location.href='/eCommerce/contact.html'</script>";
 }
 ?>

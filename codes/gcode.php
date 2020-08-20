@@ -1,6 +1,6 @@
 <?php
 require "DBManager.php";
-$uploaddir="C:/wamp/www/flower_Aura/gadgets/";
+$uploaddir="C:/wamp/www/eCommerce/gadgets/";
 $uploadfile=$uploaddir.basename($_FILES["gpic"]["name"]);
 $gpic=$_FILES["gpic"]["name"];
 $gcat=$_POST["gcat"];
@@ -12,12 +12,12 @@ if($x==false)
 {
 if(move_uploaded_file($_FILES["gpic"]["tmp_name"],$uploadfile))
 {
-	echo "<script>alert('Record saved!!');window.location.href='../Admin/My Pages/addgadgets.php'</script>";
+	echo "<script>alert('Record saved!!');window.location.href='../Admin/My Pages/addgadgets.html'</script>";
 }	
 }
 else
 {
-echo "<script>alert('Record not saved!!');window.location.href='../Admin/My Pages/addgadgets.php'</script>";	
+echo "<script>alert('Record not saved!!');window.location.href='../Admin/My Pages/addgadgets.html'</script>";	
 }
 
 ?>

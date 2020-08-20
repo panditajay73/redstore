@@ -7,10 +7,10 @@ $db=new DBManager();
 $x=$db->insertUpdateorDelete($query);
 if($x==false)
 {
-echo"<script>alert('Record deleted!!!');window.location.href='../Admin/My Pages/tshirtsmgmt.php'</script>";	
+echo"<script>alert('Record deleted!!!');window.location.href='../Admin/My Pages/tshirtsmgmt.html'</script>";	
 }
 else
 {
-echo"<script>alert('Record not deleted!!!');window.location.href='../Admin/My Pages/tshirtsmgmt.php'</script>";		
+echo"<script>alert('Record not deleted!!!');window.location.href='../Admin/My Pages/tshirtsmgmt.html'</script>";		
 }
 ?>

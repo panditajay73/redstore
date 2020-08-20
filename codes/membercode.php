@@ -12,10 +12,10 @@ $db=new DBManager();
 $x=$db->insertUpdateorDelete($query);
 if($x==false)
 {
-echo"<script>alert('Thanks for become a member');window.location.href='/flower_Aura/account.php'</script>";
+echo"<script>alert('Thanks for become a member');window.location.href='/eCommerce/account.html'</script>";
 }
 else
 {
-echo"<script>alert('Sorry!!');window.location.href='/flower_Aura/account.php'</script>";
+echo"<script>alert('Sorry!!');window.location.href='/eCommerce/account.html'</script>";
 }
 ?>

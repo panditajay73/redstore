@@ -14,12 +14,12 @@ if($x==false)
 {
 if(move_uploaded_file($_FILES["spic"]["tmp_name"],$uploadfile))
 {
-	echo "<script>alert('Record saved!!');window.location.href='../Admin/My Pages/addshoes.php'</script>";
+	echo "<script>alert('Record saved!!');window.location.href='../Admin/My Pages/addshoes.html'</script>";
 }	
 }
 else
 {
-echo "<script>alert('Record not saved!!');window.location.href='../Admin/My Pages/addshoes.php'</script>";	
+echo "<script>alert('Record not saved!!');window.location.href='../Admin/My Pages/addshoes.html'</script>";	
 }
 
 ?>
